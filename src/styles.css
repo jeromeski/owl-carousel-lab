@@ -39,3 +39,30 @@
   background: red;
 }
 
+.playPause {
+  display: inline-block;
+  position: relative;
+  padding: 0 5px;
+  cursor: pointer;
+  vertical-align: 2px;
+}
+
+.owl-theme__ppButton.pause .playbutton, .owl-theme__ppButton.play .pausebutton {
+  display: none;
+}
+
+.playPause svg {
+  width: 16px;
+  height: 16px;
+  stroke: #fff;
+  fill: #fff;
+  vertical-align: .1em;
+}
+
+.owl-dots .playbutton {
+  display: inline-block;
+}
+
+.owl-dots .pausebutton {
+  display: inline-block;
+}
